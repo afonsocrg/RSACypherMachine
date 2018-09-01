@@ -1,0 +1,66 @@
++------------------------------------------------------------------------------+
+|                               ENIGMA HELP MENU                               |
++------------------------------------------------------------------------------+
+|                                                                              |
+|                       ------> LIST OF COMMANDS <------                       |
+| -> help                                                                      |
+|      DESCRIPTION:                                                            |
+|        Show this menu                                                        |
+|                                                                              |
+| -> exit                                                                      |
+|      DESCRIPTION:                                                            |
+|        Exits the program                                                     |
+|                                                                              |
+| -> clear                                                                     |
+|      DESCRIPTION:                                                            |
+|        Clear screen                                                          |
+|                                                                              |
+| -> myKey                                                                     |
+|      DESCRIPTION:                                                            |
+|        Show your public key                                                  |
+|                                                                              |
+| -> newKey                                                                    |
+|      DESCRIPTION:                                                            |
+|        Generate new pair of keys. Show new public                            |
+|                                                                              |
+| -> encrypt                                                                   |
+|      DESCRIPTION:                                                            |
+|        Encrypt message with given key                                        |
+|                                                                              |
+|      SYNTAX:                                                                 |
+|        encrypt <key> <message>                                               |
+|          <key> format:                                                       |
+|              (<n1>, <n2>)                                                    |
+|          <message> format:                                                   |
+|              everything after the space that succeeds <key>                  |
+|                                                                              |
+|      CAUTION:                                                                |
+|         the encrypted message ends with the following sequence:              |
+|                         Ö<---THE MESSAGE ENDS HERE                           |
+|            (Ö is not recognized by this encryption program)                  |
+|                                                                              |
+| -> decrypt                                                                   |
+|      DESCRIPTION:                                                            |
+|        Decrypts message with your private key                                |
+|                                                                              |
+|      SYNTAX:                                                                 |
+|        decrypt <message>                                                     |
+|          <message> format:                                                   |
+|              everything after the space that succeeds decrypt                |
+|                                                                              |
+|                         ----> ################ <----                         |
+|                                                                              |
+|                                                                              |
+|                                                                              |
+|                   ------> RECOGNIZED CHARACTERS <------                      |
+|                                                                              |
+|                   !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~ [SPACE]                   |
+|                          ABCDEFGHIJKLMNOPQRSTUVWXYZ                          |
+|                          abcdefghijklmnopqrstuvwxyz                          |
+|                                  0123456789                                  |
+|                                                                              |
+|                        EVERY NOT RECOGNIZED CHARACTER                        |
+|                              IS REPLACED BY "?"                              |
+|                     ----> ##################### <----                        |
+|                                                                              |
++------------------------------------------------------------------------------+
